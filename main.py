@@ -8,7 +8,9 @@ def func1():
     c = 3.14 * d
     print("Area =", a)
     print("Circumference =", c)
-    func1()
+
+
+func1()
 
 
 E = input("Press Y  to enter another diameter?:")
@@ -18,3 +20,4 @@ while E == "Y":
     func1()
     E = input("Press Y  to enter another diameter?:")
     E = str(E)
+
