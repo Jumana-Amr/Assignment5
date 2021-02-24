@@ -20,4 +20,3 @@ while E == "Y":
     func1()
     E = input("Press Y  to enter another diameter?:")
     E = str(E)
-
