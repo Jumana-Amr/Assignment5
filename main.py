@@ -1,7 +1,7 @@
-from os import system, name
+from os import system
 
 
-def func1(): 
+def func1():
     d = input("Enter diameter:")
     d = float(d)
     a = 1 / 4 * 3.14 * d * d
@@ -16,5 +16,5 @@ E = str(E)
 while E == "Y":
     _ = system("clear")
     func1()
-    E=input("Press Y  to enter another diameter?:")
-    E=str(E)
+    E = input("Press Y  to enter another diameter?:")
+    E = str(E)
